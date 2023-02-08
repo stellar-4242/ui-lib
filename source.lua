@@ -1388,7 +1388,7 @@ function library:SetTheme(theme)
 end
 
 function library:GetThemes()
-    local g = themes
+    local g = {"Night Red", "Default", "Midnight"}
 
     local folderpath = string.format("%s//themes", self.folder)
 
