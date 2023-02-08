@@ -1388,7 +1388,7 @@ function library:SetTheme(theme)
 end
 
 function library:GetThemes()
-    local themes = {"Default", "Midnight"}
+    local g = themes
 
     local folderpath = string.format("%s//themes", self.folder)
 
@@ -1396,11 +1396,11 @@ function library:GetThemes()
         for _, theme in next, listfiles(folderpath) do
             local name = theme:gsub(folderpath .. "\\", "")
             name = name:gsub(".json", "")
-            table.insert(themes, name)
+            table.insert(g, name)
         end
     end
 
-    return themes
+    return g
 end
 
 function library:SaveCustomTheme(name)
