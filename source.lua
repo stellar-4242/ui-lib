@@ -1097,14 +1097,14 @@ end
 local themes = {
 
     ['Night Red'] = {
-         Accent = Color3.fromRGB(255, 0, 0),
+        Accent = Color3.fromRGB(255, 0, 0),
         ['Object Border'] = Color3.fromRGB(11, 11, 11),
         ['Window Border'] = Color3.fromRGB(5, 5, 5),
         ["Window Background"] = Color3.fromRGB(10, 10, 10),
         ["Section Border"] = Color3.fromRGB(5, 5, 5),
         ['Tab Border'] = Color3.fromRGB(5, 5, 5),
         ["Tab Background"] = Color3.fromRGB(15, 15, 15),
-        ["Tab Toggle Background"] = Color3.fromRGB(19, 19, 19)
+        ["Tab Toggle Background"] = Color3.fromRGB(19, 19, 19),
         ["Section Background"] = Color3.fromRGB(18, 18, 18),
         ["Text"] = Color3.fromRGB(200, 200, 200),
         ["Disabled Text"] = Color3.fromRGB(110, 110, 110),
